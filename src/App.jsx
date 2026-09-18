@@ -64,7 +64,7 @@ function App() {
             <Route path="/gov/challenges/new" element={<ChallengeForm />} />
             <Route path="/gov/challenges/:id/edit" element={<ChallengeForm />} />
             <Route path="/gov/applications" element={<GovApplications />} />
-            <Route path="/evaluation" element={<EvaluationDashboard />} />
+            <Route path="/gov/evaluation" element={<EvaluationDashboard />} />
             <Route path="/gov/pilots" element={<GovPilots />} />
           </Route>
 
